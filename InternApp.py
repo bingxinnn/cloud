@@ -95,8 +95,7 @@ def xinyiPortfolio():
 @app.route("/companyform", methods=['GET', 'POST'])
 def companyform():
     if request.method == "POST":
-    # com_id = request.form['com_id']
-    # com_pwd = request.form['com_pwd']
+
         com_name = request.form.get['com_name']
         com_address = request.form['com_address']
         com_HP = request.form['com_hp']
@@ -107,13 +106,14 @@ def companyform():
         job_title = request.form['job_title']
         job_type = request.form['job_type']
         job_description = request.form['job_description']
+    
 
 
-    insert_sql = "INSERT INTO company VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)"
-    cursor = db_conn.cursor()
+        insert_sql = "INSERT INTO company VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)"
+        cursor = db_conn.cursor()
 
-    if com_logo_file.filename == "":
-        return "Please select an image file"
+        if com_logo_file.filename == "":
+            return "Please select an image file"
 
     try:
 
