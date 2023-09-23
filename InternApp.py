@@ -148,6 +148,7 @@ def companyform():
         print("all modification done...")
         return render_template('AddComOutput.html', name=com_name)
             #return to company profile page
+    return render_template('companyform.html')
 
 @app.route("/searchStudentProcess", methods=['GET', 'POST'])
 def searchStudProcess():
