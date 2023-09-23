@@ -94,7 +94,7 @@ def xinyiPortfolio():
 
 @app.route("/companyform", methods=['GET','POST'])
 def companyform():
-    #if request.method == "POST":
+    if request.method == "POST":
 
         com_name = request.form['com_name']
         com_address = request.form['com_address']
