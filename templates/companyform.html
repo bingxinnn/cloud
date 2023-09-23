@@ -125,34 +125,36 @@
     </div>
         <div class="row mb-5">
             <div class="col-lg-12">
-            <form class="p-4 p-md-5 border rounded" method="post">
+            <!-- <form class="p-4 p-md-5 border rounded" method="post"> -->
             <h3 class="text-black my-5 border-bottom pb-2">Company Details</h3>
             <form action="/addComProcess" method = "POST" enctype="multipart/form-data">
             <div class="form-group">
+
             <label for="com_name">Company Name *</label>
             <input type="text" class="form-control" id="com_name" name="com_name">
             </div>
             <div class="form-group">
-            <label for="company-address">Company Address *</label>
+            <label for="com_address">Company Address *</label>
             <input type="text" class="form-control" id="com_address" name="com_address" >
             </div>
+
             <div class="form-group">
-            <label for="company-contact">Contact Number *</label>
+            <label for="com_hp">Contact Number *</label>
             <input type="text" class="form-control" id="com_hp" name="com_hp" placeholder="03-6123 9999">
             </div>
             <div class="form-group">
-            <label for="company-email">Email *</label>
+            <label for="com_mail">Email *</label>
             <input type="text" class="form-control" id="com_mail" name="com_mail" placeholder="abc@company.com">
             </div>
             <div class="form-group">
-            <label for="job-description">Company Description (Optional)</label>
+            <label for="job_description">Company Description (Optional)</label>
             <div class="editor" id="editor-2">
             <textarea name class="form-control" id cols="30" rows="6" name="job_description"></textarea>
 
             </div>
             </div>
             <div class="form-group">
-            <label for="company-website">Website (Optional)</label>
+            <label for="com_website">Website (Optional)</label>
             <input type="text" class="form-control" id="com_website" name="com_website" placeholder="https://">
             </div>
             <div class="form-group">                <label for="company-website-tw d-block">Company Logo *</label> <br>
@@ -170,12 +172,12 @@
             <h3 class="text-black mb-5 border-bottom pb-2">Job Details</h3>
     
             <div class="form-group">
-            <label for="job-title">Job Title *</label>
+            <label for="job_title">Job Title *</label>
             <input type="text" class="form-control" id="job_title" name="job_title" placeholder="">
             </div>
  
             <div class="form-group">
-            <label for="job-type">Job Type *</label>
+            <label for="job_type">Job Type *</label>
             <div class="ss-custom-select">
                 <select class="u-fullwidth" id="job_type" name="job_type">
                     <option value="Full Time">Full Time</option>
@@ -205,7 +207,7 @@
     
             </div>
             <div class="form-group">
-            <label for="job-description">Job Description *</label>
+            <label for="job_description">Job Description *</label>
             <div class="editor" id="editor-1">
             <textarea name class="form-control" id cols="30" rows="8" name="job_description"></textarea>
 
