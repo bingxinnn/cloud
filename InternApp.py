@@ -1,330 +1,364 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Edukate - Online Education Website Template</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free HTML Templates" name="keywords">
-        <meta content="Free HTML Templates" name="description">
-    
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
-    
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
-    
-        <!-- Font Awesome -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    
-        <!-- Libraries Stylesheet -->
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    
-    <body>
-        <!-- Topbar Start -->
-        <div class="container-fluid bg-dark">
-            <div class="row py-2 px-lg-5">
-                <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
-                    <div class="d-inline-flex align-items-center text-white">
-                        <small><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</small>
-                        <small class="px-3">|</small>
-                        <small><i class="fa fa-envelope mr-2"></i>info@example.com</small>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-center text-lg-right">
-                    <div class="d-inline-flex align-items-center">
-                        <a class="text-white px-2" href="">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="text-white px-2" href="">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a class="text-white px-2" href="">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a class="text-white px-2" href="">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a class="text-white pl-2" href="">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Topbar End -->
-    
-    
-        <!-- Navbar Start -->
-        <div class="container-fluid p-0">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
-                <a href="index.html" class="navbar-brand ml-lg-3">
-                    <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-book-reader mr-3"></i>Edukate</h1>
-                </a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
-                    <div class="navbar-nav mx-auto py-0">
-                        <a href="home.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="course.html" class="nav-item nav-link">Courses</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="detail.html" class="dropdown-item">Course Detail</a>
-                                <a href="feature.html" class="dropdown-item">Our Features</a>
-                                <a href="team.html" class="dropdown-item">Instructors</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    </div>
-                    <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Join Us</a>
-                </div>
-            </nav>
-        </div>
-        <!-- Navbar End -->
-    
-    
-        <!-- Header Start -->
-        <div class="jumbotron jumbotron-fluid position-relative overlay-bottom" style="margin-bottom: 90px;">
-            <div class="container text-center my-5 py-5">
-                <h1 class="text-white mt-4 mb-4">Sign Up</h1>
-                <h1 class="text-white display-1 mb-5">Company Registration</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Header End -->
-    </section>
-    <section class="site-section">
-    <div class="container">
-    <div class="row align-items-center mb-5">
-    <div class="col-lg-8 mb-4 mb-lg-0">
-    <div class="d-flex align-items-center">
-    <div>
-    <h2>Post A Job</h2>
-    </div>
-    </div>
-    </div>
-    <div class="col-lg-4">
-    <div class="row">
-    <div class="col-6">
-    <a href="#" class="btn btn-block btn-light btn-md"><span class="icon-open_in_new mr-2"></span>Preview</a>
-    </div>
-    <div class="col-6">
-    <a href="#" class="btn btn-block btn-primary btn-md">Save Job</a>
-    </div>
-    </div>
-    </div>
-    </div>
-        <div class="row mb-5">
-            <div class="col-lg-12">
-            <form class="p-4 p-md-5 border rounded" method="post">
-            <h3 class="text-black my-5 border-bottom pb-2">Company Details</h3>
-            <div class="form-group">
-            <label for="company-name">Company Name *</label>
-            <input type="text" class="form-control" id="company-name" name="com_name">
-            </div>
-            <div class="form-group">
-            <label for="company-address">Company Address *</label>
-            <input type="text" class="form-control" id="company-address" name="com_address" >
-            </div>
-            <div class="form-group">
-            <label for="company-contact">Contact Number *</label>
-            <input type="text" class="form-control" id="company-contact" name="com_hp" placeholder="03-6123 9999">
-            </div>
-            <div class="form-group">
-            <label for="company-email">Email *</label>
-            <input type="text" class="form-control" id="company-email" name="com_mail" placeholder="abc@company.com">
-            </div>
-            <div class="form-group">
-            <label for="job-description">Company Description (Optional)</label>
-            <div class="editor" id="editor-2">
-            <textarea name class="form-control" id cols="30" rows="6" name="job_description"></textarea>
+# from curses import flash
+# from flask_wtf.csrf import CSRFProtect, CSRFError
+from io import BytesIO
+from flask import Flask, render_template, session, request, redirect, flash, jsonify, url_for
+from pymysql import connections
+import os
+import boto3
+import botocore
+from flask import send_file
+# import pdfplumber
+# Use BytesIO to handle the binary content
+# from werkzeug.utils import secure_filename
+from config import *
 
-            </div>
-            </div>
-            <div class="form-group">
-            <label for="company-website">Website (Optional)</label>
-            <input type="text" class="form-control" id="company-website" name="com_website" placeholder="https://">
-            </div>
-            <div class="form-group">                <label for="company-website-tw d-block">Company Logo *</label> <br>
-            <label class="btn btn-primary btn-md btn-file">
-            Upload picture<input type="file" hidden>
-            </label>
-            </div>
-            </form>
-            </div>
-            </div> 
+app = Flask(__name__)
+
+bucket = custombucket
+region = customregion
+
+db_conn = connections.Connection(
+    host=customhost,
+    port=3306,
+    user=customuser,
+    password=custompwd,
+    db=customdb
+)
+
+output = {}
+table = 'Student'
+
+@app.route("/")
+def index():
+    return render_template('index.html')
+
+@app.route("/homepage", methods=['GET', 'POST'])
+def homepage():
+    return render_template('home.html')
+
+@app.route("/searchStudentPage", methods=['GET', 'POST'])
+def searchStudentPage():
+    return render_template('search_student.html')
+
+@app.route("/aboutpage", methods=['GET', 'POST'])
+def aboutpage():
+    return render_template('about.html')
+
+@app.route("/featurepage", methods=['GET', 'POST'])
+def featurepage():
+    return render_template('feature.html')
+
+@app.route("/contactpage", methods=['GET', 'POST'])
+def contactpage():
+    return render_template('contact.html')
+
+@app.route("/coursepage", methods=['GET', 'POST'])
+def coursepage():
+    return render_template('course.html')
+
+@app.route("/indexpage", methods=['GET', 'POST'])
+def indexpage():
+    return render_template('index.html')
+
+@app.route("/teampage", methods=['GET', 'POST'])
+def teampage():
+    return render_template('team.html')
+
+@app.route("/testimonialpage", methods=['GET', 'POST'])
+def testimonialpage():
+    return render_template('testimonial.html')
+
+@app.route("/ziyuPortfolio", methods=['GET', 'POST'])
+def ziyuPortfolio():
+    return render_template('ziyu_portfolio.html')
+
+@app.route("/bingxinPortfolio", methods=['GET', 'POST'])
+def bingxinPortfolio():
+    return render_template('bingxin_portfolio.html')
+
+@app.route("/justinPortfolio", methods=['GET', 'POST'])
+def justinPortfolio():
+    return render_template('justin_portfolio.html')
+
+@app.route("/junxianPortfolio", methods=['GET', 'POST'])
+def junxianPortfolio():
+    return render_template('junxian_portfolio.html')
+
+@app.route("/jianyongPortfolio", methods=['GET', 'POST'])
+def jianyongPortfolio():
+    return render_template('jianyong_portfolio.html')
+
+@app.route("/xinyiPortfolio", methods=['GET', 'POST'])
+def xinyiPortfolio():
+    return render_template('xinyi_portfolio.html')
+
+@app.route("/companyform", methods=['GET', 'POST'])
+def Company():
+    # com_id = request.form['com_id']
+    # com_pwd = request.form['com_pwd']
+    com_name = request.form['com_name']
+    com_address = request.form['com_address']
+    com_HP = request.form['com_hp']
+    com_email = request.form['com_mail']
+    com_description = request.form['com_description']
+    com_website = request.form['com_website']
+    com_logo_file = request.files['company_logo_file']
+    job_title = request.form['job_title']
+    job_type = request.form['job_type']
+    job_description = request.form['job_description']
+    # status = request.form['com_id']
+    
+
+
+    insert_sql = "INSERT INTO company VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)"
+    cursor = db_conn.cursor()
+
+    if com_logo_file.filename == "":
+        return "Please select an image file"
+
+    try:
+
+        cursor.execute(insert_sql, (com_name, com_address, com_HP,com_email,com_description,com_website,job_title,job_type,job_description))
+        db_conn.commit()
+        # Uplaod image file in S3 #
+        comp_image_file_name_in_s3 = str(com_name) + "_logo_image_file"
+        s3 = boto3.resource('s3')
+
+        try:
+            print("Data inserted in MySQL RDS... uploading image to S3...")
+            s3.Bucket(custombucket).put_object(Key=com_image_file_name_in_s3, Body=com_logo_file)
+            bucket_location = boto3.client('s3').get_bucket_location(Bucket=custombucket)
+            s3_location = (bucket_location['LocationConstraint'])
+
+            if s3_location is None:
+                s3_location = ''
+            else:
+                s3_location = '-' + s3_location
+
+            object_url = "https://s3{0}.amazonaws.com/{1}/{2}".format(
+                s3_location,
+                custombucket,
+                com_image_file_name_in_s3)
+
+        except Exception as e:
+            return str(e)
+
+    finally:
+        cursor.close()
+
+    print("all modification done...")
+    return render_template('AddComOutput.html', name=com_name)
+        #return to company profile page
+
+@app.route("/searchStudentProcess", methods=['GET', 'POST'])
+def searchStudProcess():
+    stud_id = request.form['stud_id']
+
+    search_sql = "SELECT * FROM student WHERE stud_id = %s"
+    cursor = db_conn.cursor()
+
+    cursor.execute(search_sql, (stud_id))
+    rows = cursor.fetchall()
+
+    if rows:
+        return render_template('display_searchStudInfo.html', rows=rows)
+    else:
+        return "Student does not exist."
+
+    cursor.close()
+
+
+def authenticate_user(username, password):
+    try:
+        # Connection is db_conn !!!
+        
+        cursor = db_conn.cursor()
+        cursor.execute("SELECT user_pass, upper(user_role) FROM users WHERE user_id = %s", (username,))
+        user_data = cursor.fetchone()
+        
+        if user_data:
+            db_pass, user_role = user_data
             
-        <div class="row mb-5">
-            <div class="col-lg-12">
-            <form class="p-4 p-md-5 border rounded" method="post">    
-            <h3 class="text-black mb-5 border-bottom pb-2">Job Details</h3>
+            # Check if password correct
+            if password == db_pass:
+                # Redirect users based on their roles
+                if user_role == 'ADMIN':
+                    return 'admin.html' # CHANGE BASED ON IMPLEMENTATION
+                elif user_role == 'LECTURER':
+                    return 'lecturer.html' # CHANGE BASED ON IMPLEMENTATION
+                elif user_role == 'STUDENT':
+                    return 'home.html' # CHANGE BASED ON IMPLEMENTATION
+                elif user_role == 'COMPANY':
+                    return 'home.html' # CHANGE BASED ON IMPLEMENTATION
+                elif user_role == 'MASTER':
+                    return 'home.html' # CHANGE BASED ON IMPLEMENTATION
+                else:
+                    return None  # Invalid user_role, access denied
+        
+        return None  # User not found or passwords don't match, access denied
     
-            <div class="form-group">
-            <label for="job-title">Job Title *</label>
-            <input type="text" class="form-control" id="job-title" name="job_title" placeholder="">
-            </div>
- 
-            <div class="form-group">
-            <label for="job-type">Job Type *</label>
-            <!-- <div class="ss-custom-select">
-                <select class="u-fullwidth" id="job-type" name="job-type">
-                    <option value="Full Time">Full Time</option>
-                    <option value="Part Time">Part Time</option>
-                    <option value="Internship">Internship</option>
-                </select> -->
+    except Exception as e:
+        print("Database error:", str(e))
+        return None  # Access denied in case of an error
+    
+    finally:
+        # Close the database connection
+        if cursor:
+            cursor.close()
+
+
+@app.route('/login', methods=['POST'])
+def login_post():
+    username = request.form['username'] #From index.html
+    password = request.form['password'] #From index.html
+    
+    # Use your authenticate_user function here
+    redirect_page = authenticate_user(username, password)
+    
+    if redirect_page:
+        # Store the username in the Flask session
+        session['username'] = username
+        
+        # Redirect to the appropriate page based on user role
+        return render_template(redirect_page)
+    else:
+        return "Access denied"
+    
+@app.route('/logout')
+def logout():
+   # remove the username from the session if it is there
+   session.pop('username', None)
+   return redirect(url_for('index'))
+
+@app.route('/signup', methods=['POST'])
+def signup_post():
+    username = request.form['signUpUsername'] #From index.html
+    password = request.form['signUpPassword'] #From index.html
+    roles    = request.form['roles'] #From index.html
+    
+    insert_sql = "INSERT INTO users VALUES (%s, %s, %s)"
+    cursor = db_conn.cursor()
+    cursor.execute(insert_sql, (username, password, roles))
+    db_conn.commit()
+    cursor.close()
+
+    return render_template('index.html')
+
+# @app.route("/displayStudInfo", methods=['GET', 'POST'])
+# def viewStudentInfo():
+#     statement = "SELECT s.* FROM student s JOIN company c ON s.com_id = c.com_id WHERE s.com_id = 'C0001';"
+#     cursor = db_conn.cursor()
+#     cursor.execute(statement)
+#     result = cursor.fetchall()
+#     cursor.close()
+    
+#     return render_template('display_studInfo.html', data=result)
+
+@app.route("/displayStudInfo", methods=['GET', 'POST'])
+def viewStudentInfo():
+    username = session.get('username')
+
+    if username:
+        # statement = "SELECT s.* FROM student s JOIN company c ON s.com_email = c.com_email WHERE s.com_email = %s;"
+        statement = "SELECT s.* FROM student s JOIN company c ON s.com_id = c.com_id WHERE s.com_id = %s;"
+
+        cursor = db_conn.cursor()
+        cursor.execute(statement, (username,))
+        result = cursor.fetchall()
+        cursor.close()
+
+        return render_template('display_studInfo.html', data=result)
+    
+    else:
+        return "Nothing found"
+
+@app.route('/displayStudInfoDetails/<stud_id>')
+def viewStudentInfoDetails(stud_id):
+    statement = "SELECT * FROM student s WHERE stud_id = %s"
+    cursor = db_conn.cursor()
+    cursor.execute(statement, (stud_id,))
+    result = cursor.fetchone()
             
+    return render_template('display_studInfoDetails.html', student=result)
 
 
-            <div class="col-md-12 mb-3 mb-md-0">
-                <label for="option-job-type-1">
-                <input type="radio" id="option-job-type-1" name="job_type"> Full Time
-                </label>
-            </div>
-
-            <div class="col-md-12 mb-3 mb-md-0">
-                <label for="option-job-type-1">
-                <input type="radio" id="option-job-type-1" name="job_type"> Part Time
-                </label>
-            </div>
-
-            <div class="col-md-12 mb-3 mb-md-0">
-                <label for="option-job-type-1">
-                <input type="radio" id="option-job-type-1" name="job_type"> Internship
-                </label>
-            </div>
+@app.route('/displayStudResume/<stud_id>')
+def displayStudentResume(stud_id):
+    statement = "SELECT stud_id, stud_resume FROM student s WHERE stud_id = %s"
+    cursor = db_conn.cursor()
+    cursor.execute(statement, (stud_id,))
+    results = cursor.fetchone()
     
-            </div>
-            <div class="form-group">
-            <label for="job-description">Job Description *</label>
-            <div class="editor" id="editor-1">
-            <textarea name class="form-control" id cols="30" rows="8" name="job_description"></textarea>
+    if results: 
+        studID, resume = results
+        resume = "https://" + bucket + ".s3.amazonaws.com/stud_id-" + studID + "_pdf.pdf"
+        return render_template('display_resume.html', results=results, resume=resume)
+        
+    else: 
+        return "Invalid student."
+        
+    return render_template('display_studInfo.html')
 
-            </div>
-            </div>
-           
-            <div class="row align-items-center mb-5">
-            <div class="col-lg-4 ml-auto">
-            <div class="row">
-            <div class="col-6">
-            <a href="#" class="btn btn-block btn-light btn-md"><span class="icon-open_in_new mr-2"></span>Preview</a>
-            </div>
-            <div class="col-6">
-            <a href="#" class="btn btn-block btn-primary btn-md">Save Job</a>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-        </section>
+@app.route("/lecturerDisplayStudInfo", methods=['GET', 'POST'])
+def lecturerViewStudentInfo():
+    statement = "SELECT s.* FROM student s JOIN lecturer l ON s.lec_id = l.lec_id WHERE s.lec_id = 'L0001';"
+    cursor = db_conn.cursor()
+    cursor.execute(statement)
+    result = cursor.fetchall()
+    cursor.close()
+    
+    return render_template('lec_displayStudInfo.html', data=result)
 
-<!-- Footer Start -->
-<div class="container-fluid position-relative overlay-top bg-dark text-white-50 py-5" style="margin-top: 90px;">
-    <div class="container mt-5 pt-5">
-        <div class="row">
-            <div class="col-md-6 mb-5">
-                <a href="index.html" class="navbar-brand">
-                    <h1 class="mt-n2 text-uppercase text-white"><i class="fa fa-book-reader mr-3"></i>Edukate</h1>
-                </a>
-                <p class="m-0">Accusam nonumy clita sed rebum kasd eirmod elitr. Ipsum ea lorem at et diam est, tempor rebum ipsum sit ea tempor stet et consetetur dolores. Justo stet diam ipsum lorem vero clita diam</p>
-            </div>
-            <div class="col-md-6 mb-5">
-                <h3 class="text-white mb-4">Newsletter</h3>
-                <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary px-4">Sign Up</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 mb-5">
-                <h3 class="text-white mb-4">Get In Touch</h3>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
-                <div class="d-flex justify-content-start mt-4">
-                    <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-twitter"></i></a>
-                    <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
-                    <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-linkedin-in"></i></a>
-                    <a class="text-white" href="#"><i class="fab fa-2x fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="col-md-4 mb-5">
-                <h3 class="text-white mb-4">Our Courses</h3>
-                <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Web Design</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Apps Design</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Marketing</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Research</a>
-                    <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>SEO</a>
-                </div>
-            </div>
-            <div class="col-md-4 mb-5">
-                <h3 class="text-white mb-4">Quick Links</h3>
-                <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Privacy Policy</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Terms & Condition</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Regular FAQs</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Help & Support</a>
-                    <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Contact</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container-fluid bg-dark text-white-50 border-top py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0">Copyright &copy; <a class="text-white" href="#">Your Site Name</a>. All Rights Reserved.
-                </p>
-            </div>
-            <div class="col-md-6 text-center text-md-right">
-                <p class="m-0">Designed by <a class="text-white" href="https://htmlcodex.com">HTML Codex</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Footer End -->
 
-<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery-migrate-3.0.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/aos.js"></script>
-<script src="js/jquery.animateNumber.min.js"></script>
-<script src="js/scrollax.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-<script src="js/google-map.js"></script>
-<script src="js/main.js"></script>
+@app.route("/studProfile/", methods=['GET', 'POST'])
+def GetStudInfo():
+    username = session.get('username')
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    if username:
+        # Fetch student information from the database
+        statement = "SELECT * FROM student WHERE stud_id = %s;"
+        cursor = db_conn.cursor()
+        cursor.execute(statement, (username,))
+        student_data = cursor.fetchone()
+        cursor.close()
+        
+        return render_template('studProfile.html', student=student_data)
+    else:
+        return "Student not found"
 
-  gtag('config', 'UA-23581568-13');
-</script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854" integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg==" data-cf-beacon='{"rayId":"808615d5df9a04e0","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.8.0","si":100}' crossorigin="anonymous"></script>
-</body>
-</html>
+@app.route("/preview/<stud_id>")
+def preview_file(stud_id):
+    # Fetch the resume BLOB from the database
+    cursor = db_conn.cursor()
+    cursor.execute(f"SELECT stud_resume FROM Student WHERE stud_id = {stud_id}")
+    resume_data = cursor.fetchone()
+    cursor.close()
+
+    if resume_data:
+        # Save the resume to a temporary file
+        resume_blob = resume_data[0]
+        temp_file_path = f"temp_resume_{stud_id}.pdf"
+
+        with open(temp_file_path, 'wb') as file:
+            file.write(resume_blob)
+
+        # Send the file for download
+        return send_file(temp_file_path, as_attachment=True)
+    else:
+        return "Resume not found"
+
+
+@app.route("/displayComInfo", methods=['GET', 'POST'])
+def viewCompanyInfo():
+    statement = "SELECT * FROM company WHERE status = 0;"
+    cursor = db_conn.cursor()
+    cursor.execute(statement)
+    result = cursor.fetchall()
+    cursor.close()
+    
+    return render_template('admin.html', data=result)
+
+
+if __name__ == '__main__':
+    app.secret_key = 'cc_key'
+    app.run(host='0.0.0.0', port=80, debug=True)
