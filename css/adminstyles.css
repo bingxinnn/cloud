@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.15);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #0770f9;
+    color: white;
+}
+
+button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.approve {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+button.reject {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#adminInfo {
+    display: flex;
+    align-items: center;
+}
+
+#welcome {
+    margin-right: 10px;
+}
+
+#logoutDiv {
+    text-align: right;
+    margin-top: 20px;
+}
+
+#logout {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f44336; /* Red */
+    color: white;
+    cursor: pointer;
+}
+
+#logout:hover {
+    opacity: 0.8;
+}
