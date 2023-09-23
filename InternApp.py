@@ -98,17 +98,15 @@ def companyform():
     # com_id = request.form['com_id']
     # com_pwd = request.form['com_pwd']
         com_name = request.form.get['com_name']
-    com_address = request.form['com_address']
-    com_HP = request.form['com_hp']
-    com_email = request.form['com_mail']
-    com_description = request.form['com_description']
-    com_website = request.form['com_website']
-    com_logo_file = request.files['company_logo_file']
-    job_title = request.form['job_title']
-    job_type = request.form['job_type']
-    job_description = request.form['job_description']
-    # status = request.form['com_id']
-    
+        com_address = request.form['com_address']
+        com_HP = request.form['com_hp']
+        com_email = request.form['com_mail']
+        com_description = request.form['com_description']
+        com_website = request.form['com_website']
+        com_logo_file = request.files['company_logo_file']
+        job_title = request.form['job_title']
+        job_type = request.form['job_type']
+        job_description = request.form['job_description']
 
 
     insert_sql = "INSERT INTO company VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)"
