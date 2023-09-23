@@ -96,7 +96,7 @@ def xinyiPortfolio():
 def companyform():
     if request.method == "POST":
 
-        com_name = request.form.get['com_name']
+        com_name = request.form['com_name']
         com_address = request.form['com_address']
         com_HP = request.form['com_hp']
         com_email = request.form['com_mail']
