@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="../static/css/styles2.css">
+    
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Sign In</title>
+    </head>
+    <body>
+        <div class="login">
+            <div class="login__content">
+                <!-- <div class="login__img">
+                    <img src="../static/img/img-login.svg" alt="">
+                </div> -->
+                <div class="login__forms">
+                    <form method="POST" action="/login" class="login__registre">
+                        <h1 class="login__title">Sign In</h1>
+    
+                        <div class="login__box">
+                            <i class='bx bx-user login__icon'></i>
+                            <input type="text" placeholder="Username" class="login__input" name="username" required>
+                        </div>
+    
+                        <div class="login__box">
+                            <i class='bx bx-lock-alt login__icon'></i>
+                            <input type="password" placeholder="Password" class="login__input" name="password" required>
+                        </div>
+
+                        <input type="submit" class="login__button" value="Login">
+                    </form>
+                </div>
+                <div class="login__forms">
+                    <form method="POST" action="/signup" class="login__registre">
+                        <h1 class="login__title">Sign Up</h1>
+    
+                        <div class="login__box">
+                            <i class='bx bx-user login__icon'></i>
+                            <input type="text" placeholder="Username" class="login__input" name="signUpUsername" required>
+                        </div>
+    
+                        <div class="login__box">
+                            <i class='bx bx-lock-alt login__icon'></i>
+                            <input type="password" placeholder="Password" class="login__input" name="signUpPassword" required>
+                        </div>
+
+                        <div class="login__box">
+                            <select name="roles">
+                                <option value="" disabled selected>Select your role</option>
+                                <option value="student">Student</option>
+                                <option value="company">Company</option>
+                                <option value="lecturer">Lecturer</option>
+                                <!-- <option value="audi">Audi</option> -->
+                            </select>
+                        </div>
+
+                        <input type="submit" class="login__button" value="Login">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
