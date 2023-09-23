@@ -93,7 +93,7 @@ def xinyiPortfolio():
     return render_template('xinyi_portfolio.html')
 
 @app.route("/companyform", methods=['GET', 'POST'])
-def Company():
+def companyform():
     # com_id = request.form['com_id']
     # com_pwd = request.form['com_pwd']
     com_name = request.form['com_name']
