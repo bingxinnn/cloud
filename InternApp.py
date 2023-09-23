@@ -92,9 +92,9 @@ def jianyongPortfolio():
 def xinyiPortfolio():
     return render_template('xinyi_portfolio.html')
 
-@app.route("/companyform", methods=['GET', 'POST'])
+@app.route("/companyform", methods=['POST'])
 def companyform():
-    if request.method == "POST":
+    #if request.method == "POST":
 
         com_name = request.form['com_name']
         com_address = request.form['com_address']
